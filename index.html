@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EdLoop</title>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/landing.css">
+  </head>
+
+  <body onresize="adaptive()">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__main-content">
+            <div class="header__logo">
+              <a href="/" class="header__logo-link">
+                <img class="header__logo-img" src="media/svg/logo.svg" alt="edloop">
+              </a>
+            </div>
+
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#!" class="header__link">Блог</a>
+                </li>
+                <li class="header__item">
+                  <a href="#!" class="header__link">Тарифы</a>
+                </li>
+                <li class="header__item">
+                  <a href="#!" class="header__link">О нас</a>
+                </li>
+
+                <li class="header__item for_mobile">
+                  <a href="#!" class="header__link">Войти</a>
+                </li>
+
+                <li class="header__item for_mobile">
+                  <a href="#!" class="header__link">Регистрация</a>
+                </li>
+
+                <div class="header__nav-close">
+                  <span class="header__nav-close-line"></span>
+                  <span class="header__nav-close-line"></span>
+                </div>
+              </ul>
+            </nav>
+
+            <div class="header__burger burger">
+              <span class="header__burger__line"></span>
+              <span class="header__burger__line header__burger__line_second"></span>
+              <span class="header__burger__line"></span>
+            </div>
+          </div>
+
+          <div class="header__auth">
+            <ul class="header__list">
+              <li class="header__sign_in__item">
+                <a href="#!" class="header__sing_in_link">Войти</a>
+              </li>
+              <li class="header__sign__item">
+                <a href="#!" class="header__sign_up_link">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="wrapper">
+          <div class="intro__wrapper">
+            <div class="intro__text-info">
+              <h1 class = "intro__title">
+                Платформа для индивидуальных онлайн занятий
+              </h1>
+
+              <button class="intro__register_button">
+                <a class="intro__register_link">
+                  Зарегистрироваться
+                </a>
+              </button>
+            </div>
+
+            <div class="intro__image_div">
+              <img class="intro__image" src="media/intro-image.png" alt="Платформа для индивидуальных онлайн занятий">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="start_lesson">
+        <div class="wrapper">
+          <h2 class="start_lesson__title section_title">
+            Начните онлайн занятие  в три простых шага
+          </h2>
+
+          <div class="start_lesson__steps">
+            <div class="start_lesson__step">
+              <div class="step__text">
+                <p class="step__title">Зарегистрируйтесь</p>
+                <p class="step__subtitle">в качестве учителя или ученика</p>
+              </div>
+              <div class="step__number__item">
+                <p class="step__number">1</p>
+              </div>
+            </div>
+            <div class="for_mobile vertical_line"></div>
+            <div class="start_lesson__step start_lesson__step_second">
+              <div class="step__number__item second_step">
+                <p class="step__number">2</p>
+              </div>
+
+              <div class="step__text">
+                <p class="step__title">Создайте комнату</p>
+                <p class="step__subtitle">и пригласите ученика, передав ему номер созданной комнаты</p>
+              </div>
+            </div>
+            <div class="for_mobile vertical_line"></div>
+            <div class="start_lesson__step">
+              <div class="step__text">
+                <p class="step__title">Занимайтесь</p>
+                <p class="step__subtitle">используя онлайн доску, видеосвязь, чат и обмен файлами</p>
+              </div>
+              <div class="step__number__item">
+                <p class="step__number">3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="wrapper">
+          <h2 class="features__title section_title">
+            EdLoop это удобно, эффективно и просто
+          </h2>
+
+          <div class="features__content">
+            <div class="features__video">
+              <iframe class="features__video_frame"
+                src="https://www.youtube.com/embed/jeyOgFMpLuo">
+              </iframe>
+            </div>
+            <div class="features__features">
+              <div class="features__feature_item">
+                <img src="media/svg/hands.svg" alt="Коллаборация" class="feature_item__icon">
+                <p class="feature_item__title">Коллаборация</p>
+                <p class="feature_item__descr">Мы тесно общаемся с репетиторами в нашем сообществе ВКонтакте и создаем новые инструменты EdLoop с учетом пожеланий аших пользователей</p>
+              </div>
+              <div class="features__feature_item">
+                <img src="media/svg/cubes.svg" alt="Коллаборация" class="feature_item__icon">
+                <p class="feature_item__title">Все в одном</p>
+                <p class="feature_item__descr">Мы постарались объединить все необходимые для онлайн занятий инструменты воедино в одном веб-приложении</p>
+              </div>
+              <div class="features__feature_item">
+                <img src="media/svg/brain.svg" alt="Коллаборация" class="feature_item__icon">
+                <p class="feature_item__title">Интуитивность</p>
+                <p class="feature_item__descr">Мы делаем EdLoop максимально простым и понятным для наших пользователей и их учеников</p>
+              </div>
+              <div class="features__feature_item">
+                <img src="media/svg/tutor.svg" alt="Коллаборация" class="feature_item__icon">
+                <p class="feature_item__title">Репетиторам</p>
+                <p class="feature_item__descr">Инструменты EdLoop разработаны специально для онлайн занятий в формате один на один</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="question">
+        <div class="wrapper">
+          <h2 class="question__title section_title">
+            Вопросы?
+          </h2>
+
+          <div class="question__questions">
+            <div class="questions_group">
+
+              <div class="questions__item">
+                <div class="question__item__box" id="question-1" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-1">А какие планы у вас по развитию EdLoop?</p>
+                  <img class="question_item__dropdown" id="question-svg-1" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer" id="answer-1">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions__item">
+                <div class="question__item__box" id="question-2" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-2">Можно ли проводить урок для нескольких учеников?</p>
+                  <img class="question_item__dropdown" id="question-svg-2" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer" id="answer-2">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions__item">
+                <div class="question__item__box" id="question-3" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-3">Для преподавателей каких предметов EdLoop?</p>
+                  <img class="question_item__dropdown" id="question-svg-3" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer" id="answer-3">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions__item">
+                <div class="question__item__box" id="question-4" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-4">Провожу урок на другой доске. Чем ваша лучше?</p>
+                  <img class="question_item__dropdown" id="question-svg-4" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer" id="answer-4">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+
+              <div class="questions__item">
+                <div class="question__item__box" id="question-5" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-5">Сколько все это удовольствие стоит?</p>
+                  <img class="question_item__dropdown" id="question-svg-5" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer question__answer-active" id="answer-5">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+              <div class="questions__item">
+                <div class="question__item__box" id="question-6" onclick="collapse(this)">
+                  <p class="question__item__title" id="question-title-6">Я - ученик. Могу ли я...</p>
+                  <img class="question_item__dropdown" id="question-svg-6" src="media/svg/more.svg" alt="А какие планы у вас по развитию EdLoop?">
+                </div>
+                <div class="question__answer" id="answer-6">
+                  <p class="question__answer_text">
+                    На данный момент все базовые возможности абсолютно бесплатны, как для учителя, так и для ученика. Если есть необходимость в использовании более расширенного функционала можно изменить тарифный план, подробнее про тарифы тут.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="wrapper-full">
+          <h2 class="reviews__title section_title">
+            Отзывы
+          </h2>
+
+          <div class="reviews__reviews_list">
+            <div class="reviews__review active" id="review-1">
+              <div class="review__info">
+                <div class="review__author_image">
+                  <span class="for_mobile review__arrow prev_review" style="visibility:hidden">
+                    <img src="media/svg/prev-icon.svg" alt="edloop">
+                  </span>
+
+                  <img src="media/elena.png" alt="" class="review_img">
+
+                  <span href="#" class="for_mobile review__arrow next_review">
+                    <img src="media/svg/next-icon.svg" alt="edloop">
+                  </span>
+                </div>
+                <div class="review__author">
+                  <p class="review__author_name">Елена</p>
+                  <p class="review__pub_date">5 февраля 2020</p>
+                  <a href="#" class="review__link">
+                    <img src="media/svg/vk.svg" alt="Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.">
+                  </a>
+                </div>
+              </div>
+              <p class="review__content">
+                Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.
+                <br>
+                <br>
+                Другое достоинство платформы – качество линии связи. Что позволяет ребятам из регионов с некачественным интернетом без проблем подключаться на данную доску. На EdLoop мы уже обсуждали эту проблему с Юрием Михайловым и находили оптимальное решение, которое устроило все заинтересованные стороны.
+              </p>
+            </div>
+
+            <div class="reviews__review" id="review-2">
+              <div class="review__info">
+                <div class="review__author_image">
+                  <span class="review__arrow prev_review for_mobile">
+                    <img src="media/svg/prev-icon.svg" alt="edloop">
+                  </span>
+
+                  <img src="media/viktoriya.png" alt="" class="review_img">
+
+                  <span href="#" class="review__arrow next_review for_mobile">
+                    <img src="media/svg/next-icon.svg" alt="edloop">
+                  </span>
+                </div>
+                <div class="review__author">
+                  <p class="review__author_name">Виктория</p>
+                  <p class="review__pub_date">10 февраля 2020</p>
+                  <a href="#" class="review__link">
+                    <img src="media/svg/vk.svg" alt="Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.">
+                  </a>
+                </div>
+              </div>
+              <p class="review__content">
+                Вот уже больше чем полгода использую только edloop.ru. Прекрасная онлайн доска! Нет «зависания», как это бывает на других платформах. Понятная навигация, все нужные инструменты для работы есть. Имеется необходимый набор графических элементов, таких как прямая, окружность, прямоугольник. Есть возможность добавлять изображения  на доску и работать загруженным материалом. 
+                <br>
+                <br>
+                Разработчики активно внедряют новые и очень полезные элементы, совершенствуют функции. Спасибо за отличную онлайн платформу! Благодаря этой онлайн доске уроки действительно стали более эффективными и интересными!
+              </p>
+            </div>
+
+            <div class="reviews__review"  id="review-3">
+              <div class="review__info">
+                <div class="review__author_image">
+                  <span class="review__arrow prev_review for_mobile">
+                    <img src="media/svg/prev-icon.svg" alt="edloop">
+                  </span>
+
+                  <img src="media/viktoriya.png" alt="" class="review_img">
+
+                  <span href="#" class="review__arrow next_review for_mobile">
+                    <img src="media/svg/next-icon.svg" alt="edloop">
+                  </span>
+                </div>
+                <div class="review__author">
+                  <p class="review__author_name">Виктория</p>
+                  <p class="review__pub_date">9 апреля 2020</p>
+                  <a href="#" class="review__link">
+                    <img src="media/svg/vk.svg" alt="Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.">
+                  </a>
+                </div>
+              </div>
+              <p class="review__content">
+                Всем своим знакомым учителям разрекламировала платформу edloop. Сейчас все, кто работал только "очно", были вынуждены перейти на дистанционное обучение в связи с пандемией.edloop удобная и понятная доска для всех! Все довольны😊.  
+                <br>
+                <br>
+                Даже те, кто никогда ранее не проводил уроки дистанционно остались в восторге! Спасибо разработчикам!!!
+              </p>
+            </div>
+
+            <div class="reviews__review"  id="review-4">
+              <div class="review__info">
+                <div class="review__author_image">
+                  <span class="review__arrow prev_review for_mobile">
+                    <img src="media/svg/prev-icon.svg" alt="edloop">
+                  </span>
+
+                  <img src="media/svetlana.png" alt="" class="review_img">
+
+                  <span href="#" class="review__arrow next_review for_mobile">
+                    <img src="media/svg/next-icon.svg" alt="edloop">
+                  </span>
+                </div>
+                <div class="review__author">
+                  <p class="review__author_name">Светлана</p>
+                  <p class="review__pub_date">11 февраля 2020</p>
+                  <a href="#" class="review__link">
+                    <img src="media/svg/vk.svg" alt="Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.">
+                  </a>
+                </div>
+              </div>
+              <p class="review__content">
+                Удобна доска тем, что сразу полноценная связь, что можно отключить камеру, т.к. есть ребята, которым проще работать лишь в аудиорежиме.
+                <br><br>
+                Задания в виде картинок я вставляю с помощью скриншотера из буфера обмена сочетанием клавиш. Очень удобно! Моим ученикам доска очень нравится!
+                <br><br>
+                А вообще мне очень нравится ваша платформа, не смотря на мелкие недоделки. Спасибо Вам огромное за такую нужную для нас репетиторов платформу с понятным интерфейсом.
+              </p>
+            </div>
+
+            <div class="reviews__review"  id="review-5">
+              <div class="review__info">
+                <div class="review__author_image">
+                  <span class="review__arrow prev_review for_mobile">
+                    <img src="media/svg/prev-icon.svg" alt="edloop">
+                  </span>
+
+                  <img src="media/elena-2.png" alt="" class="review_img">
+
+                  <span href="#" class="review__arrow next_review for_mobile" style="visibility:hidden">
+                    <img src="media/svg/next-icon.svg" alt="edloop">
+                  </span>
+                </div>
+                <div class="review__author">
+                  <p class="review__author_name">Елена</p>
+                  <p class="review__pub_date">9 февраля 2020</p>
+                  <a href="#" class="review__link">
+                    <img src="media/svg/vk.svg" alt="Главным достоинством электронной доски EdLoop является возможность одновременно писать как ученику, так и учителю в документе в режиме он-лайн. Нет необходимости переключаться с одного активного пользователя на другого.">
+                  </a>
+                </div>
+              </div>
+
+              <p class="review__content">
+                Ребята, спасибо вам за платформу!!!! Увидела вашу рекламу в вк пару недель назад, когда всего этого "карантина" не было, и подумала: надо бы посмотреть...ПОТОМ! А тут! в три дня пришлось перестраивать всю работу с учениками.
+                <br><br>
+                За три дня работы в проге были неполадки со звуком - сильная задержка в один день, видео тоже подтормаживает, как и демонстрация экрана. Ещё бы я добавила заливку , хотя бы три тона: чёрный, среднесерый и светлосерый. Мне бы это очень пригодилось!!! А пока всё равно СПАСИБО ВАМ БОЛЬШОЕ!!!!!! Процесс идёт, а это главное!!!👍🏻
+              </p>
+            </div>
+          </div>
+
+          <div class="reviews__paginator">
+            <span class="review__arrow prev_review">
+              <img src="media/svg/prev-icon.svg" alt="edloop">
+            </span>
+            <p class="reviews__paginator-count">
+            </p>
+            <span href="#" class="review__arrow next_review">
+              <img src="media/svg/next-icon.svg" alt="edloop">
+            </span>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="wrapper">
+          <h2 class="team__title section_title">
+            Наша команда
+          </h2>
+
+          <div class="team__team_list">
+            <div class="team__member">
+              <img src="media/anastasiya.png" alt="Анастасия Позднякова" class="team__member_image">
+              <p class="team__member_name">
+                Анастасия Позднякова
+              </p>
+              <p class="team__member_about">
+                Онлайн репетитор по математике  с опытом преподавания в гимназии, в частной и в математической школах.  Как репетитор Анастасия готовит к школе, выпускным экзаменам, поступлению в физматшколы, участию в олимпиадах.
+              </p>
+            </div>
+            <div class="team__member">
+              <img src="media/yuri.png" alt="Юрий Михайлов" class="team__member_image">
+              <p class="team__member_name">
+                Юрий Михайлов
+              </p>
+              <p class="team__member_about">
+                Инженер-программист. Разрабатывает беспилотные машины. Имеет опыт работы учителем информатики, подготовил призеров олимпиад по программированию различного уровня, и «стобальников» по ЕГЭ. Продолжает заниматься с учениками из Якутии дистанционно.
+              </p>
+            </div>
+            <div class="team__member">
+              <img src="media/innok.png" alt="Иннокентий Дьячковский" class="team__member_image">
+              <p class="team__member_name">
+                Иннокентий Дьячковский
+              </p>
+              <p class="team__member_about">
+                Бухгалтер и предприниматель. Кандидат экономических наук в области бухгалтерского учета. Бухгалтер с пятнадцатилетним стажем. Последние пять лет развивает собственный бизнес.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="try_edloop">
+        <div class="wrapper">
+          <div class="try_edloop__wrapper">
+            <h2 class="try_edloop__title section_title">
+              Попробуйте инструменты EdLoop
+            </h2>
+            <p class="try_edloop__subtitle">Проведите свое первое занятие</p>
+            <div style="text-align: center;">
+              <button class="try_edloop__try_button"><a class="try_edloop__link">Попробовать</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__wrapper">
+            <a href="/"><img class="footer__logo" src="media/svg/logo-white.svg" alt="edloop"></a>
+            <p class="footer__mail">mail@edloop.ru</p>
+            <a href="#"><img class="footer__link" src="media/@.png" alt="vk"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+    <script src="static/js/landing.js"></script>
+
+    </body>
+</html>
